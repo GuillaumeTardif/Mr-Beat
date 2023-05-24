@@ -20,12 +20,7 @@ from track import TrackWidget
 Builder.load_file("track.kv")
 Builder.load_file("play_indicator.kv")
 
-'''ATTENTION :
-Dans les vidéos suivantes, vous verrez que j'utilise le code
-self.buf.tostring() à plusieurs endroits
-👉 A chaque fois que vous verrez "buf.tostring()" remplacez le par "buf.tobytes()" sinon vous aurez une erreur.
-C'est parce que la fonction tostring() sur un array n'existe plus sur la dernière version.
-Faites bien ce remplacement pour que tout fonctionne correctement.'''
+# Made with Python 3.7.3
 
 TRACK_NB_STEPS = 16
 
